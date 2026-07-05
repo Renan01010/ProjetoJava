@@ -15,6 +15,5 @@ public class Loop {
         System.out.println("Média de avaliação " + media/3);
 
         leitura.close();
-
     }
 }
