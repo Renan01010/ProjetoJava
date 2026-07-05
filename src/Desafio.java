@@ -31,13 +31,17 @@ public class Desafio {
             System.out.println(menu);
             op = scanner.nextInt();
 
+            if (op==-1) {
+                break;
+            }
+
             switch (op) {
                 case 1:
                     System.out.println(saldo);
                     break;
                 case 2:
                     System.out.println("Qual Valor deseja Tranfesrir?");
-                    int tranferir = scanner.nextInt();
+                    double tranferir = scanner.nextDouble();
                     if (tranferir > saldo) {
                         System.out.println("Você não tem saldo suficiente!");
                     }else {
@@ -46,16 +50,17 @@ public class Desafio {
                     break;
                 case 3:
                     System.out.println("Qual valor vai receber: ");
-                    int receber = scanner.nextInt();
+                    double receber = scanner.nextDouble();
                     saldo += receber;
                     System.out.println("Você recebeu " + receber);
+                    break;
+                default:
+                    System.out.println("Digite uma opção correta!");
                     break;
             }
 
 
         }
-
         scanner.close();
-
     }
 }
