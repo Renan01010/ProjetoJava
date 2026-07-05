@@ -15,5 +15,6 @@ public class ParImpar {
         } else {
             System.out.println("É impar");
         }
+        num.close();
     }
 }

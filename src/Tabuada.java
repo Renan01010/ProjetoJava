@@ -12,5 +12,6 @@ public class Tabuada {
             System.out.printf("%d X %d = %d\n", num, i, num*i);
         }
 
+        tab.close();
     }
 }

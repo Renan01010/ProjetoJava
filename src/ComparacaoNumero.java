@@ -27,5 +27,7 @@ public class ComparacaoNumero {
         }else {
             System.out.println("O segundo é mair");
         }
+
+        num.close();
     }
 }

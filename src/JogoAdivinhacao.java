@@ -25,5 +25,7 @@ public class JogoAdivinhacao {
             }
         }
 
+        num.close();
+
     }
 }

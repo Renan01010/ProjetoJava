@@ -38,5 +38,7 @@ public class Calculo {
             System.out.println("A Area do circulo é " + resultado + " m²");
         }
 
+        opcao.close();
+
     }
 }

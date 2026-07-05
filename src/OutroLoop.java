@@ -23,5 +23,7 @@ public class OutroLoop {
         System.out.println("Média de avaliação " + media/count);
         System.out.println(media);
         System.out.println(count);
+
+        leitura.close();
     }
 }

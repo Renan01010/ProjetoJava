@@ -14,5 +14,6 @@ public class SolicitacaoUsuario {
         }else {
             System.out.println("Negativo");
         }
+        num.close();
     }
 }
